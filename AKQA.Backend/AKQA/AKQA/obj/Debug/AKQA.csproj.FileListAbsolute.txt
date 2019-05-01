@@ -309,6 +309,8 @@ D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Xml.XmlSerializer.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Xml.XPath.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Xml.XPath.XDocument.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\AKQA.BusinessLayer.dll
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Core.dll
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Windsor.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Newtonsoft.Json.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Net.Http.Formatting.dll
@@ -317,6 +319,8 @@ D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Web.Http.Cors.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Web.Http.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Web.Http.WebHost.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\AKQA.BusinessLayer.pdb
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Core.xml
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Windsor.xml
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Net.Http.Formatting.xml
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Web.Http.xml
 D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\System.Web.Http.Cors.xml

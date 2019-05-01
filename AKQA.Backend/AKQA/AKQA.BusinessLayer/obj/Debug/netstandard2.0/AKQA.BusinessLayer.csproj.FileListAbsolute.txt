@@ -15,4 +15,3 @@ D:\AKQA\AKQA.Backend\AKQA\AKQA.BusinessLayer\obj\Debug\netstandard2.0\AKQA.Busin
 D:\AKQA\AKQA.Backend\AKQA\AKQA.BusinessLayer\obj\Debug\netstandard2.0\AKQA.BusinessLayer.AssemblyInfo.cs
 D:\AKQA\AKQA.Backend\AKQA\AKQA.BusinessLayer\obj\Debug\netstandard2.0\AKQA.BusinessLayer.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA.BusinessLayer\obj\Debug\netstandard2.0\AKQA.BusinessLayer.pdb
-D:\AKQA\AKQA.Backend\AKQA\AKQA.BusinessLayer\obj\Debug\netstandard2.0\AKQA.BusinessLayer.csprojAssemblyReference.cache

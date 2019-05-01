@@ -3,7 +3,7 @@ using System.Text;
 
 namespace AKQA.BusinessLayer
 {
-    public class ConvertNumberToWord
+    public class ConvertNumberToWord : IConvertNumberToWord
     {
         /// <summary>
         /// This method converts the salary in to words

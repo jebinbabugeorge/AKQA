@@ -11,6 +11,13 @@ namespace AKQA.Controllers
 {
     public class HomeController : ApiController
     {
+        private readonly IConvertNumberToWord _convertNumberToWord;
+
+        public HomeController(IConvertNumberToWord convertNumberToWord)
+        {
+            _convertNumberToWord = convertNumberToWord;
+        }
+
         /// <summary>
         /// The API that processes the request to convert the salary into equivalent words
         /// </summary>
@@ -22,9 +29,7 @@ namespace AKQA.Controllers
         {
             try
             {
-                ConvertNumberToWord cntw = new ConvertNumberToWord();
-
-                model.SalaryInWords = cntw.GetSalaryInWords(model.Salary);
+                model.SalaryInWords = _convertNumberToWord.GetSalaryInWords(model.Salary);
 
                 return Request.CreateResponse(HttpStatusCode.OK, model);
             }

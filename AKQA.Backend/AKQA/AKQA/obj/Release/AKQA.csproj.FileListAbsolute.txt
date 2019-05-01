@@ -328,3 +328,7 @@ D:\AKQA\AKQA.Backend\AKQA\AKQA\obj\Release\AKQA.csproj.CoreCompileInputs.cache
 D:\AKQA\AKQA.Backend\AKQA\AKQA\obj\Release\AKQA.csproj.CopyComplete
 D:\AKQA\AKQA.Backend\AKQA\AKQA\obj\Release\AKQA.dll
 D:\AKQA\AKQA.Backend\AKQA\AKQA\obj\Release\AKQA.pdb
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Core.dll
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Windsor.dll
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Core.xml
+D:\AKQA\AKQA.Backend\AKQA\AKQA\bin\Castle.Windsor.xml

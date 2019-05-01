@@ -6,6 +6,7 @@ using AKQA.BusinessLayer;
 using AKQA.Controllers;
 using AKQA.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
 namespace AKQA.Tests
 {
@@ -17,7 +18,9 @@ namespace AKQA.Tests
         [TestInitialize]
         public void Init()
         {
-            _controller = new HomeController();
+            Mock<IConvertNumberToWord> ctnw = new Mock<IConvertNumberToWord>();
+            ctnw.Setup(x => x.GetSalaryInWords(0));
+            _controller = new HomeController(ctnw.Object);
             _controller.Request = new HttpRequestMessage();
             _controller.Configuration = new HttpConfiguration();
 
