@@ -28,7 +28,7 @@ namespace AKQA.Controllers
 
                 return Request.CreateResponse(HttpStatusCode.OK, model);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             }

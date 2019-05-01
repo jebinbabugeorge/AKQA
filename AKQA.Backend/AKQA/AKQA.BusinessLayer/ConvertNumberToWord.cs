@@ -29,6 +29,11 @@ namespace AKQA.BusinessLayer
 
                 if (index == 0)
                 {
+                    if(item == 0)
+                    {
+                        sb.Append("ZERO");
+                    }
+
                     // if no decimal part, do not append 'AND'
                     sb.Append(status ? " DOLLARS AND " : " DOLLARS");
                     index++;
