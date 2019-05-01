@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AKQA.Backend/AKQA/.vs/AKQA/v16/Server/sqlite3
