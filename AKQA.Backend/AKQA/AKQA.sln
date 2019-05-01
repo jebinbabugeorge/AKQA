@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA", "AKQA\AKQA.csproj", "{E4613379-0EE6-499C-8EF4-4CB54D024A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Tests", "AKQA.Tests\AKQA.Tests.csproj", "{EB9BAAE9-B52B-45E8-9BAA-99EAAA179441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.BusinessLayer", "AKQA.BusinessLayer\AKQA.BusinessLayer.csproj", "{D8C49909-67CA-4CF7-A1EC-63656722245A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4613379-0EE6-499C-8EF4-4CB54D024A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4613379-0EE6-499C-8EF4-4CB54D024A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4613379-0EE6-499C-8EF4-4CB54D024A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4613379-0EE6-499C-8EF4-4CB54D024A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9BAAE9-B52B-45E8-9BAA-99EAAA179441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9BAAE9-B52B-45E8-9BAA-99EAAA179441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9BAAE9-B52B-45E8-9BAA-99EAAA179441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9BAAE9-B52B-45E8-9BAA-99EAAA179441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C49909-67CA-4CF7-A1EC-63656722245A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C49909-67CA-4CF7-A1EC-63656722245A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C49909-67CA-4CF7-A1EC-63656722245A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C49909-67CA-4CF7-A1EC-63656722245A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E1198C-0B6C-431F-B56C-B7C161E757A5}
+	EndGlobalSection
+EndGlobal

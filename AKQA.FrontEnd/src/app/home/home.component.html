@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row justify-content-center">
+  <h2>Please enter you name and salary</h2>
+  </div>
+  <div  class="row justify-content-center">
+    <label>Name:
+      <input class="form-control" [(ngModel)]="person.Name" placeholder="Your Name" />
+    </label>
+  </div>
+  <div  class="row justify-content-center">
+    <label>Salary:
+      <input type="number" class="form-control" [(ngModel)]="person.Salary" placeholder="Your Salary" />
+    </label>
+  </div>  
+  <div class="row justify-content-center">
+    <div class="col-md-4"></div>
+    <div>
+        <input type="button" class="btn btn-success" value="Process" (click)='ProcessRequest()' />
+      </div>      
+    <div class="col-md-4"></div>
+    </div>
+</div>
+<hr/>
+<app-result [personOutput]="personOutput"></app-result>
